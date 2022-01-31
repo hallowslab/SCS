@@ -1,0 +1,11 @@
+venv
+wvenv
+__pycache__
+*.json
+Debug
+*.pyd
+*.pyc
+*.so
+*.pckl
+*.whl
+*.pylintrc
