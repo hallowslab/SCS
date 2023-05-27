@@ -2,7 +2,7 @@ import wx, sys
 from wxP.home import MainWindow
 
 def run_main():
-    app = wx.App(False)
+    app = wx.App(False, useBestVisual=True)
     frame = MainWindow(None, "SCS - Shortcut Cheat System")
     icon = wx.Icon()
     icon.CopyFromBitmap(wx.Bitmap("scs.ico", wx.BITMAP_TYPE_ANY))

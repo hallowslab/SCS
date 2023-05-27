@@ -9,3 +9,4 @@ Debug
 *.pckl
 *.whl
 *.pylintrc
+build
